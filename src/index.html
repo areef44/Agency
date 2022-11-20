@@ -1,0 +1,245 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="../dist/output.css" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+    
+    <!-- Header -->
+    <section id="header" class="fixed bg-[#28293e] dark:bg-slate-900 pt-0 w-full z-10">
+        <!-- Navbar -->
+        <nav
+            class="container w-full top-0 right-0 left-0 py-4 bg-[#28293e] md:flex md:items-center md:justify-between dark:bg-slate-900">
+            <div class="flex justify-between items-center dark:bg-slate-900">
+                <span class="bg-[#28293e] dark:bg-slate-900">
+                    <img src="../src/images/logo.svg" alt="Logo">
+                </span>
+                <button class="text-[25px] cursor-pointer mx-2 md:hidden block" id="navbar_toggle">
+                    <ion-icon class="text-white" name="grid-outline" onclick=""></ion-icon>
+                </button>
+        
+            </div>
+            <ul class="md:flex hidden md:items-center md:z-auto md:static absolute bg-[#28293e]
+             w-full left-0 md:w-auto md:py-0 py-0 md:pl-0 pl-7 
+             md:opacity-100 transition-all ease-in duration-500
+              dark:bg-slate-900" id="navbar_menu">
+                <li class="my-2 lg:mx-12 placeholder:md:my-0 mx-auto">
+                    <a class="hover:text-red-400 hover:font-bold text-white" href="#">About</a>
+                </li>
+                <li class="mx-auto lg:mx-12 my-2 md:my-0">
+                    <a class="hover:text-red-400 hover:font-bold text-white" href="#">Service</a>
+                </li>
+                <li class="mx-auto lg:mx-12 my-2 md:my-0">
+                    <a class="hover:text-red-400 hover:font-bold text-white" href="#">Pricing</a>
+                </li>
+                <li class="mx-auto lg:mx-12 my-2 md:my-0">
+                    <a class="hover:text-red-400 hover:font-bold text-white" href="#">Blog</a>
+                </li>
+                <li class="mx-auto">
+                    <div class="container bg-[#28293e] dark:bg-slate-900">
+                        <img class="moon cursor-pointer h-10" src="../src/icon/moon.svg" alt="">
+                        <img class="sun cursor-pointer h-10" src="../src/icon/sun.svg" alt="">
+                    </div>
+                </li>
+                <button
+                    class="bg-blue-500 border-transparent transition duration-100 ease-in transform
+                     hover:-translate-y-1 hover:scale-100 text-tombol font-black uppercase 
+                     py-4 px-9 border rounded-md text-white hover:bg-blue-500
+                      hover:text-white hover:border-transparent mb-4 lg:hidden">Contact
+                </button>
+        
+            </ul>
+            <div class="flex">
+                <button
+                    class="transition duration-100 ease-in transform hover:-translate-y-1 hover:scale-100 text-tombol 
+                        font-black uppercase py-4 px-9 border rounded-md text-white hover:bg-white hover:text-black hidden lg:block">Contact
+                </button>
+        
+            </div>
+        </nav>
+    </section>
+    
+
+    <!-- Title -->
+    <section id="title" class="bg-[#28293e] text-white dark:bg-slate-900">
+        <div class="container dark:bg-slate-900">
+            <h1 class="lg:text-xxl font-extrabold text-center pt-24 lg:pt-[164px] text-lg">Blog Articles</h1>
+            <h6 class="lg:text-xs text-[12px] text-center text-[#b1b2b9] pt-6 px-auto lg:px-[302px] pb-6 lg:pb-[66px]">Agency provides a full service range
+                including technical skills, design, business understanding.</h6>
+        </div>
+    </section>
+    
+    <!-- Hero -->
+    <section id="hero" class="lg:pt-20 lg:pb-[68px] pt-3 pb-3 bg-[#FDF0E9] dark:bg-slate-900 ">
+        <div class="container grid lg:grid-cols-2 grid-cols-1 gap-[30px] dark:text-white">
+            <div class="transition duration-100 ease-in transform
+                    hover:-translate-y-1 hover:scale-100 hover:shadow-2xl hover:rounded-md
+                    lg:px-0 px-4 lg:h-full h-25%">
+                <img src="../src/images/hero-1.svg" alt="hero" class="">
+                <h5 class="lg:text-sm text-[12px] lg:mt-[26px] mt-2 text-[#391400] dark:text-white">Stories</h5>
+                <h3 class="font-extrabold lg:mt-[19px] mt-2 mb-2 lg:mb-3 lg:text-lg text-sm">Performance marketing agencies specialize</h3>
+                <h6 class="lg:text-xs text-[10px] text-[#7f6454] dark:text-white">7 Dec, 2021</h6>
+            </div>
+            <div class="transition duration-100 ease-in transform
+                    hover:-translate-y-1 hover:scale-100 hover:shadow-2xl hover:rounded-md lg:px-0 px-4 lg:h-full h-25%">
+                <img src="../src/images/hero-2.svg" alt="hero">
+                <h5 class="lg:text-sm text-[12px] lg:mt-[26px] mt-2 text-[#391400] dark:text-white">Design</h5>
+                <h3 class="font-extrabold lg:mt-[19px] mt-2 mb-2 lg:mb-3 lg:text-lg text-sm">Digital marketing<br>channels</h3>
+                <h6 class="lg:text-xs text-[10px] text-[#7f6454] dark:text-white">23 Nov, 2021</h6>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Content -->
+    <section id="content" class="bg-[#FDF0E9] dark:bg-slate-900">
+        <div class="container grid lg:grid-cols-3 grid-cols-2 lg:gap-x-[30px] gap-x-[15px] lg:gap-y-[68px] gap-y-[15px] border-t border-[#F3D1BF] py-2 lg:pt-20 pt-4 dark:text-white lg:px-0 px-4">
+            <div class="px-2 transition duration-100 ease-in transform hover:-translate-y-1 hover:scale-100 hover:shadow-2xl hover:rounded-md">
+                <img src="../src/images/content-1.svg" alt="content">
+                <h5 class="text-[10px] lg:text-sm mt-[26px] text-[#391400] dark:text-white">Stories</h5>
+                <h4 class="lg:text-base text-xs font-extrabold my-[15px]">Agency is a business you hire</h4>
+                <h6 class="lg:text-xs text-[8px] text-[#7f6454] dark:text-white">7 Dec, 2021</h6>
+            </div>
+            <div class="px-2 transition duration-100 ease-in transform hover:-translate-y-1 hover:scale-100 hover:shadow-2xl hover:rounded-md">
+                <img src="../src/images/content-2.svg" alt="content">
+                <h5 class=" text-[10px] lg:text-sm mt-[26px] text-[#391400] dark:text-white">Design</h5>
+                <h4 class="lg:text-base text-xs font-extrabold my-[15px]">Outsource your digital marketing</h4>
+                <h6 class="lg:text-xs text-[8px] text-[#7f6454] dark:text-white">29 Oct, 2021</h6>
+            </div>
+            <div class="px-2 transition duration-100 ease-in transform hover:-translate-y-1 hover:scale-100 hover:shadow-2xl hover:rounded-md">
+                <img src="../src/images/content-3.svg" alt="content">
+                <h5 class="text-[10px] lg:text-sm mt-[26px] text-[#391400] dark:text-white">Marketing</h5>
+                <h4 class="lg:text-base text-xs font-extrabold my-[15px]">Your business with a variety of digital</h4>
+                <h6 class="lg:text-xs text-[8px] text-[#7f6454] dark:text-white">21 Oct, 2021</h6>
+            </div>
+            <div class="px-2 transition duration-100 ease-in transform hover:-translate-y-1 hover:scale-100 hover:shadow-2xl hover:rounded-md">
+                <img src="../src/images/content-4.svg" alt="content">
+                <h5 class="text-[10px] lg:text-sm mt-[26px] text-[#391400] dark:text-white">Design</h5>
+                <h4 class="lg:text-base text-xs font-extrabold my-[15px]">Analytics to track and report</h4>
+                <h6 class="lg:text-xs text-[8px] text-[#7f6454] dark:text-white">17 Nov, 2021</h6>
+            </div>
+            <div class="px-2 transition duration-100 ease-in transform hover:-translate-y-1 hover:scale-100 hover:shadow-2xl hover:rounded-md">
+                <img src="../src/images/content-5.svg" alt="content">
+                <h5 class="text-[10px] lg:text-sm mt-[26px] text-[#391400] dark:text-white">Branding</h5>
+                <h4 class="lg:text-base text-xs font-extrabold my-[15px]">The most well known performance</h4>
+                <h6 class="lg:text-xs text-[8px] text-[#7f6454] dark:text-white">12 Oct, 2021</h6>
+            </div>
+            <div class="px-2 transition duration-100 ease-in transform hover:-translate-y-1 hover:scale-100 hover:shadow-2xl hover:rounded-md">
+                <img src="../src/images/content-6.svg" alt="content">
+                <h5 class="text-[10px] lg:text-sm mt-[26px] text-[#391400] dark:text-white">Stories</h5>
+                <h4 class="lg:text-base text-xs font-extrabold my-[15px]">Marketing channels native advertising</h4>
+                <h6 class="lg:text-xs text-[8px] text-[#7f6454] dark:text-white">9 Oct, 202</h6>
+            </div>
+        </div>
+        <div class="container text-center lg:pb-20 pb-5 border-b border-[#F3D1BF] mt-5 lg:mt-[68px]">
+            <button
+                class="transition duration-100 ease-in transform
+                    hover:-translate-y-1 hover:scale-100 lg:text-tombol text-[10px] font-black uppercase text-[#28293e]
+                     bg-white lg:px-11 px-7 lg:py-[18px] py-3  shadow-2xl rounded-md hover:bg-[#28293e] hover:text-white">Load
+                More</button>
+        </div>
+    </section>
+    
+    <!-- Subscribe -->
+    <section id="Subscribe" class="bg-[#FDF0E9] dark:bg-slate-900">
+        <div class="container flex lg:flex-row flex-col justify-between lg:py-16 py-6 border-b border-[F3D1BF] border-[#F3D1BF] dark:text-white">
+            <h3 class="lg:text-lg lg:font-extrabold text-sm font-bold text-center lg:mt-0 mb-3">Newsletter</h3>
+            <div class="flex flex-wrap justify-center">
+                <form action="">
+                    <input type="text" placeholder="Your email"
+                        class="lg:text-xs text-[10px] lg:text-black text-black font-normal border border-[#F3D1BF] rounded-md py-2 pl-[16px] mr-4 hover:ring-1 hover:ring-[#28293e]">
+                    <button
+                        class="transition duration-100 ease-in transform
+                    hover:-translate-y-1 hover:scale-100 hover:shadow-xl lg:text-tombol text-[10px] font-black uppercase
+                     text-[#28293e] bg-white rounded-md  lg:py-[18px] py-3 lg:px-11 px-7 hover:bg-[#28293e] hover:text-white">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Us -->
+    <section id="contact-us" class="bg-[#FDF0E9] lg:pt-28 pt-1 dark:bg-slate-900">
+        <div class="container bg-[#EF6D58] flex flex-col-reverse justify-center gap-x-7 lg:grid lg:grid-cols-2 lg:gap-x-14  rounded-md">
+            <div>
+                <h2 class="lg:text-xl text-lg font-extrabold text-white lg:pt-24 pt-0 lg:pl-[100px] pl-4 lg:text-left text-center">Help To Build Your Dream Project</h2>
+                <h6 class="lg:text-xs text-[10px] text-[#eabeb8] lg:pl-[100px] pl-0 lg:pt-7 pt-4 lg:pb-[34px] pb-4 text-center">A digital agency is a business you hire to
+                    outsource your digital marketing efforts, instead of handling in-house.</h6>
+                    <div class="text-center lg:text-left pb-4 lg:pb-0">
+                        <button class="transition duration-100 ease-in transform
+                                            hover:-translate-y-1 hover:scale-100 lg:text-tombol 
+                                            text-[10px] uppercase text-[#391400] lg:ml-[100px] items-center font-extrabold 
+                                            lg:px-11 px-7 lg:py-[18px] py-3 bg-white rounded-md hover:bg-[#28293e] hover:text-white">contact
+                            now</button>
+                    </div>
+                
+            </div>
+            <div class="lg:h-fit h-2/3 mx-auto">
+                <img src="../src/images/picture.png" alt="Picture" class="lg:pt-[42px] pt-0 lg:pr-[100px] px-auto lg:pb-[72px] pb-0 ">
+            </div>
+        </div>
+    </section>
+    
+    <!-- Links -->
+    <section id="link" class="bg-[#FDF0E9] dark:bg-slate-900">
+        <div class="container grid lg:grid-cols-4 grid-cols-1 lg:pt-20 pt-3 lg:pb-[68px] pb-0 border-b border-[#F3D1BF] dark:bg-slate-900">
+            <div class="dark:text-white">
+                <h4 class="lg:text-base text-xs font-bold text-center lg:text-left">Agency</h4>
+            </div>
+            <div>
+                <ul class="flex justify-between lg:block px-4 lg:px-0">
+                    <li class="lg:text-xs text-[10px] uppercase text-[#EF6D58] tracking-[3px]">Menu</li>
+                    <li class="lg:text-xs text-[10px] text-[#391400] lg:pt-4 pt-0 dark:text-white">About</li>
+                    <li class="lg:text-xs text-[10px] text-[#391400] dark:text-white">Services</li>
+                    <li class="lg:text-xs text-[10px] text-[#391400] dark:text-white">Blog</li>
+                    <li class="lg:text-xs text-[10px] text-[#391400] dark:text-white">Contact</li>
+                </ul>
+            </div>
+            <div>
+                <ul class="flex justify-between lg:block px-4 lg:px-0">
+                    <li class="lg:text-xs text-[10px] uppercase text-[#EF6D58] tracking-[3px]">Service</li>
+                    <li class="lg:text-xs text-[10px] text-[rgb(57,20,0)] lg:pt-4 pt-0 dark:text-white">Design</li>
+                    <li class="lg:text-xs text-[10px] text-[#391400] dark:text-white">Development</li>
+                    <li class="lg:text-xs text-[10px] text-[#391400] dark:text-white">Marketing</li>
+                    <li class="lg:text-xs text-[10px] text-[#391400] dark:text-white">See More</li>
+                </ul>
+            </div>
+            <div class="flex lg:justify-end justify-center lg:pt-0 pt-3  ">
+                <h6 class="my-[6px] mr-3 text-[10px] dark:text-white text-[#391400] lg:hidden">Follow us</h6>
+                <img src="../src/images/facebook.svg" alt="facebook" class="lg:h-fit h-[50%] mr-2 transition duration-100 ease-in transform
+                    hover:-translate-y-1 hover:scale-100">
+                <img src="../src/images/twitter.svg" alt="twitter" class="lg:h-fit h-[50%] mr-2 transition duration-100 ease-in transform
+                    hover:-translate-y-1 hover:scale-100">
+                <img src="../src/images/instagram.svg" alt="instagram" class="lg:h-fit h-[50%] transition duration-100 ease-in transform
+                    hover:-translate-y-1 hover:scale-100">
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <section id="footer" class="bg-[#FDF0E9] dark:bg-slate-900">
+        <div class="lg:container lg:grid lg:grid-cols-2 lg:py-11 flex justify-center flex-col-reverse">
+            <div class="lg:py-0 py-3">
+                <h6 class="lg:text-left text-center lg:text-xs text-[10px] text-[#607186] dark:text-white">Copyright © 2022 Laaqiq. All Rights Reserved.</h6>
+            </div>
+            <div class="flex lg:justify-end justify-between lg:px-0 px-4 lg:pt-0 pt-3">
+                <h6 class="lg:text-xs text-[10px] text-[#391400] mr-16 dark:text-white">Terms of Use</h6>
+                <h6 class="lg:text-xs text-[10px] text-[#391400] dark:text-white">Privacy Policy</h6>
+            </div>
+            <div class="transition duration-150 ease-out hover:ease-in">
+            </div>
+        </div>
+    </section>
+
+
+<script src="../node_modules/flowbite/dist/flowbite.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
